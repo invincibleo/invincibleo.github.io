@@ -22,7 +22,7 @@ export const publicationData: Publication[] = [
     paperUrl: "https://www.frontiersin.org/articles/10.3389/fninf.2022.942978/full",
     //codeUrl: "https://github.com/jsmith/scalable-causal-discovery",
     //bibtex: "https://arxiv.org/abs/2409.15476.bib",
-    tldr: "Proposes an end-to-end speech emotion recognition system using dilated convolutional neural networks with context stacking (DiCCOSER-CS), which eliminates recurrent layers while achieving superior performance to LSTM-based models through its large receptive field and parallelizable architecture, demonstrating improved accuracy on both regression (arousal/valence prediction) and classification tasks.",
+    tldr: "Proposes a weekly-supervised contrastive embedding framework for binaural sound source localization, where a neural network learns low-dimensional representations of binaural cues that preserve spatial proximity, showing robustness to reverberation, noise, and limited training data.",
     imageUrl:
       "/pic/frontiers2022_WSCE_BSL.png",
     // award: "🏆 Best Paper Award",
