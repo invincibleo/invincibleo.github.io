@@ -1,6 +1,7 @@
 export interface Publication {
   year: string;
-  conference: string;
+  conference?: string;
+  journal?: string;
   title: string;
   authors: string;
   paperUrl?: string;
