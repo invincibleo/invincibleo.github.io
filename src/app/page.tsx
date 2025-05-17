@@ -45,7 +45,7 @@ export default function Home() {
                 case Section.News:
                   return (
                     newsData.length > 0 && (
-                      <section key={sectionName}>
+                      <section id="news" key={sectionName}>
                         <h2 className="font-serif text-l mb-12 tracking-wide uppercase">
                           News
                         </h2>
@@ -62,7 +62,7 @@ export default function Home() {
                 case Section.Education:
                   return (
                     educationData.length > 0 && (
-                      <section key={sectionName}>
+                      <section id="education" key={sectionName}>
                         <h2 className="font-serif text-zinc-700 mb-12 tracking-wide uppercase">
                           Education
                         </h2>
@@ -77,7 +77,7 @@ export default function Home() {
                 case Section.Publication:
                   return (
                     publicationData.length > 0 && (
-                      <section key={sectionName}>
+                      <section id="publications" key={sectionName}>
                         <h2 className="font-serif text-l mb-12 tracking-wide uppercase">
                           Publications
                         </h2>
@@ -97,7 +97,7 @@ export default function Home() {
                 case Section.Experience:
                   return (
                     experienceData.length > 0 && (
-                      <section key={sectionName}>
+                      <section id="experiences" key={sectionName}>
                         <h2 className="font-serif text-md mb-12 tracking-wide uppercase">
                           Experience
                         </h2>
@@ -115,7 +115,7 @@ export default function Home() {
                 case Section.Portfolio:
                   return (
                     portfolioData.length > 0 && (
-                      <section key={sectionName}>
+                      <section id="portfolio" key={sectionName}>
                         <h2 className="font-serif text-md mb-12 tracking-wide uppercase">
                           Portfolio
                         </h2>
@@ -134,40 +134,40 @@ export default function Home() {
           </div>
         </div>
 
-        {/* Vertical Navigation Bar */}
-        <div className="hidden md:block w-48 ml-8 sticky top-24">
-          <nav className="space-y-4">
-            <a href="#about" className="text-zinc-700 hover:text-zinc-900 block">
-              About
-            </a>
-            <a href="#news" className="text-zinc-700 hover:text-zinc-900 block">
-              News
-            </a>
+          {/* Vertical Navigation Bar */}
+          <div className="hidden md:block w-48 ml-8">
+            <nav className="sticky top-12 space-y-4">
+              <a href="#about" className="text-zinc-700 hover:text-zinc-900 block">
+                About
+              </a>
+              <a href="#news" className="text-zinc-700 hover:text-zinc-900 block">
+                News
+              </a>
             <a
               href="#publications"
               className="text-zinc-700 hover:text-zinc-900 block"
             >
-              Publications
-            </a>
+                Publications
+              </a>
             <a
               href="#education"
               className="text-zinc-700 hover:text-zinc-900 block"
             >
-              Education
-            </a>
+                Education
+              </a>
             <a
               href="#experience"
               className="text-zinc-700 hover:text-zinc-900 block"
             >
-              Experience
-            </a>
+                Experience
+              </a>
             <a
               href="#portfolio"
               className="text-zinc-700 hover:text-zinc-900 block"
             >
-              Portfolio
-            </a>
-          </nav>
+                Portfolio
+              </a>
+            </nav>
         </div>
       </div>
     </div>
