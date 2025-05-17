@@ -32,7 +32,7 @@ export const aboutMe: AboutMe = {
   linkedinUsername: "duowei-tang-64ba24153",
   // twitterUsername: "janesmith",
   // blogUrl: "https://",
-  cvUrl: "https://",
+  // cvUrl: "https://",
   institutionUrl: "https://www.kuleuven.be",
   // altName: "",
   // secretDescription: "I like dogs.",

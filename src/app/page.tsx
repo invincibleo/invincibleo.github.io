@@ -172,24 +172,24 @@ export default function Home() {
             >
                 Experience
               </a>
-            <a
+            {/* <a
               href="#teaching"
               className="text-zinc-700 hover:text-zinc-900 block"
             >
                 Teaching
-              </a>
+              </a> */}
             {/* <a
               href="#education"
               className="text-zinc-700 hover:text-zinc-900 block"
             >
                 Education
               </a> */}
-            <a
+            {/* <a
               href="#portfolio"
               className="text-zinc-700 hover:text-zinc-900 block"
             >
                 Portfolio
-              </a>
+              </a> */}
             </nav>
         </div>
       </div>
