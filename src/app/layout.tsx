@@ -58,9 +58,9 @@ export default function RootLayout({
             </div>
             <div className="mb-4">
               <p className="text-sm text-neutral-500 dark:text-neutral-500 justify">
-                Built with{" "}
+                E-mail:{" "}
                 <a
-                  href="https://github.com/tovacinni/research-website-template"
+                  href="mailto:duowei.tang@kuleuven.be"
                   className="underline hover:text-neutral-800 dark:hover:text-neutral-300 transition-colors"
                 >
                   research-website-template
