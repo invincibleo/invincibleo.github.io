@@ -39,7 +39,7 @@ export const publicationData: Publication[] = [
     //bibtex: "https://arxiv.org/abs/2409.15476.bib",
     tldr: "Proposes an end-to-end speech emotion recognition system using dilated convolutional neural networks with context stacking (DiCCOSER-CS), which eliminates recurrent layers while achieving superior performance to LSTM-based models through its large receptive field and parallelizable architecture, demonstrating improved accuracy on both regression (arousal/valence prediction) and classification tasks.",
     imageUrl:
-      "/pic/eusipco2020_network.png",
+      "/pic/2021EURASIP_network.png",
     // award: "🏆 Best Paper Award",
     // if you have an image in public/images, you can use it like this:
     // imageUrl: "/images/publication-image.jpg"
