@@ -13,9 +13,21 @@ export interface Publication {
 
 export const publicationData: Publication[] = [
   // If you don't want to show publications, just make the array empty.
-  Tang, D., Kuppens, P., Geurts, L., and van Waterschoot, T. (2021, January). Adieu recurrence? End-to-end
-speech emotion recognition using a context stacking dilated convolutional network. In 2020 28th European Signal
-Processing Conference (EUSIPCO) (pp. 1-5). IEEE.
+  {
+    year: "2021",
+    journal: "EURASIP Journal on Audio, Speech, and Music Processing",
+    title: "End-to-end speech emotion recognition using a novel context-stacking dilated convolution neural network",
+    authors: "Duowei Tang, Peter Kuppens, Luc Geurts, and Toon van Waterschoot",
+    paperUrl: "https://link.springer.com/article/10.1186/s13636-021-00208-5",
+    //codeUrl: "https://github.com/jsmith/scalable-causal-discovery",
+    //bibtex: "https://arxiv.org/abs/2409.15476.bib",
+    tldr: "Proposes an end-to-end speech emotion recognition system using dilated convolutional neural networks with context stacking (DiCCOSER-CS), which eliminates recurrent layers while achieving superior performance to LSTM-based models through its large receptive field and parallelizable architecture, demonstrating improved accuracy on both regression (arousal/valence prediction) and classification tasks.",
+    imageUrl:
+      "/pic/network.pdf",
+    // award: "🏆 Best Paper Award",
+    // if you have an image in public/images, you can use it like this:
+    // imageUrl: "/images/publication-image.jpg"
+  },
   {
     year: "2020",
     conference: "28th European Signal Processing Conference (EUSIPCO)",
