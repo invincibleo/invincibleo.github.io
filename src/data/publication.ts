@@ -13,8 +13,6 @@ export interface Publication {
 
 export const publicationData: Publication[] = [
   // If you don't want to show publications, just make the array empty.
-  Tang, D., Taseska, M., and van Waterschoot, T., Towards Learning Robust Contrastive Embeddings For Binaural
-Source Localization. Frontiers in Neuroinformatics 16 (2022): 942978.
   {
     year: "2022",
     journal: "Frontiers in Neuroinformatics",
