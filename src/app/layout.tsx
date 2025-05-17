@@ -63,7 +63,7 @@ export default function RootLayout({
                   href="mailto:duowei.tang@kuleuven.be"
                   className="underline hover:text-neutral-800 dark:hover:text-neutral-300 transition-colors"
                 >
-                  research-website-template
+                  duowei.tang[at]kuleuven.be
                 </a>
               </p>
             </div>
