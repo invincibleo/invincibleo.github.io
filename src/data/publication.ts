@@ -13,6 +13,23 @@ export interface Publication {
 
 export const publicationData: Publication[] = [
   // If you don't want to show publications, just make the array empty.
+  Tang, D., Taseska, M., and van Waterschoot, T., Towards Learning Robust Contrastive Embeddings For Binaural
+Source Localization. Frontiers in Neuroinformatics 16 (2022): 942978.
+  {
+    year: "2022",
+    journal: "Frontiers in Neuroinformatics",
+    title: "Towards Learning Robust Contrastive Embeddings For Binaural Source Localization",
+    authors: "Duowei Tang, Maja Taseska, and Toon van Waterschoot",
+    paperUrl: "https://www.frontiersin.org/articles/10.3389/fninf.2022.942978/full",
+    //codeUrl: "https://github.com/jsmith/scalable-causal-discovery",
+    //bibtex: "https://arxiv.org/abs/2409.15476.bib",
+    tldr: "Proposes an end-to-end speech emotion recognition system using dilated convolutional neural networks with context stacking (DiCCOSER-CS), which eliminates recurrent layers while achieving superior performance to LSTM-based models through its large receptive field and parallelizable architecture, demonstrating improved accuracy on both regression (arousal/valence prediction) and classification tasks.",
+    imageUrl:
+      "/pic/frontiers2022_WSCE_BSL.png",
+    // award: "🏆 Best Paper Award",
+    // if you have an image in public/images, you can use it like this:
+    // imageUrl: "/images/publication-image.jpg"
+  },
   {
     year: "2021",
     journal: "EURASIP Journal on Audio, Speech, and Music Processing",
@@ -23,7 +40,7 @@ export const publicationData: Publication[] = [
     //bibtex: "https://arxiv.org/abs/2409.15476.bib",
     tldr: "Proposes an end-to-end speech emotion recognition system using dilated convolutional neural networks with context stacking (DiCCOSER-CS), which eliminates recurrent layers while achieving superior performance to LSTM-based models through its large receptive field and parallelizable architecture, demonstrating improved accuracy on both regression (arousal/valence prediction) and classification tasks.",
     imageUrl:
-      "/pic/network.pdf",
+      "/pic/eusipco2020_network.png",
     // award: "🏆 Best Paper Award",
     // if you have an image in public/images, you can use it like this:
     // imageUrl: "/images/publication-image.jpg"
