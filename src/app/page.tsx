@@ -18,7 +18,7 @@ export default function Home() {
       {/* Don't have a great call on whether max-w-screen-xl is better */}
       <div className="max-w-screen-lg mx-auto px-8 py-24 flex">
         {/* Main Content */}
-        <div className="flex-1 grid grid-cols-1 md:grid-cols-12 gap-0">
+        <div className="grid grid-cols-1 md:grid-cols-12 gap-0">
           {/* Left Column - Fixed Info */}
           <div className="col-span-12 md:col-span-4 space-y-12 mb-8 md:mb-0">
             {/* Profile */}
@@ -140,13 +140,33 @@ export default function Home() {
             <a href="#about" className="text-zinc-700 hover:text-zinc-900 block">
               About
             </a>
-            <a href="#publications" className="text-zinc-700 hover:text-zinc-900 block">
-              Publications
-            </a>
             <a href="#news" className="text-zinc-700 hover:text-zinc-900 block">
               News
             </a>
-            {/* Add more links as needed */}
+            <a
+              href="#publications"
+              className="text-zinc-700 hover:text-zinc-900 block"
+            >
+              Publications
+            </a>
+            <a
+              href="#education"
+              className="text-zinc-700 hover:text-zinc-900 block"
+            >
+              Education
+            </a>
+            <a
+              href="#experience"
+              className="text-zinc-700 hover:text-zinc-900 block"
+            >
+              Experience
+            </a>
+            <a
+              href="#portfolio"
+              className="text-zinc-700 hover:text-zinc-900 block"
+            >
+              Portfolio
+            </a>
           </nav>
         </div>
       </div>
