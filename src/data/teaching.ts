@@ -2,6 +2,7 @@ export interface Teaching {
   year: string;
   institution: string;
   title: string;
+  degree: string;
   advisor?: string;
   thesis?: string;
   thesisUrl?: string;
