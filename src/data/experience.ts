@@ -24,7 +24,7 @@ export const experienceData: Experience[] = [
     company: "KU Leuven",
     description:
       "Deep Learning for Audio/Speech Applications: A perspective on representation learning and sequence modelling.",
-    manager: "Prof. dr. ir. Toon van Waterschoot, Prof. dr. Peter Kuppens, and Prof. dr. ir. Luc Geurts",
+    advisor: "Prof. dr. ir. Toon van Waterschoot, Prof. dr. Peter Kuppens, and Prof. dr. ir. Luc Geurts",
     companyUrl: "https://tvanwate.github.io/team/",
   },
   {

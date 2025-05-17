@@ -22,7 +22,7 @@ export function ExperienceEntry({ experience }: { experience: Experience }) {
         </h3>
         {experience.advisor && (
           <p className="text-sm text-zinc-600 leading-relaxed italic mt-2">
-            Advisor: {experience.advisor}
+            Supervisor: {experience.advisor}
           </p>
         )}
         {experience.manager && (

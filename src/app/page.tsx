@@ -1,5 +1,7 @@
-import { EducationEntry } from "@/components/education-entry";
-import { educationData } from "@/data/education";
+// import { EducationEntry } from "@/components/education-entry";
+// import { educationData } from "@/data/education";
+import { TeachingEntry } from "@/components/teaching-entry";
+import { teachingData } from "@/data/teaching";
 import { PublicationEntry } from "@/components/publication-entry";
 import { publicationData } from "@/data/publication";
 import { ProfileSection } from "@/components/profile-section";
@@ -59,21 +61,36 @@ export default function Home() {
                       </section>
                     )
                   );
-                case Section.Education:
+                case Section.Teaching:
                   return (
-                    educationData.length > 0 && (
-                      <section id="education" key={sectionName}>
+                    teachingData.length > 0 && (
+                      <section id="teaching" key={sectionName}>
                         <h2 className="font-serif text-zinc-700 mb-12 tracking-wide uppercase">
-                          Education
+                          Teaching
                         </h2>
                         <div className="space-y-12">
-                          {educationData.map((education, index) => (
-                            <EducationEntry key={index} education={education} />
+                          {teachingData.map((teaching, index) => (
+                            <TeachingEntry key={index} teaching={teaching} />
                           ))}
                         </div>
                       </section>
                     )
                   );
+                // case Section.Education:
+                //   return (
+                //     educationData.length > 0 && (
+                //       <section id="education" key={sectionName}>
+                //         <h2 className="font-serif text-zinc-700 mb-12 tracking-wide uppercase">
+                //           Education
+                //         </h2>
+                //         <div className="space-y-12">
+                //           {educationData.map((education, index) => (
+                //             <EducationEntry key={index} education={education} />
+                //           ))}
+                //         </div>
+                //       </section>
+                //     )
+                //   );
                 case Section.Publication:
                   return (
                     publicationData.length > 0 && (
@@ -97,7 +114,7 @@ export default function Home() {
                 case Section.Experience:
                   return (
                     experienceData.length > 0 && (
-                      <section id="experiences" key={sectionName}>
+                      <section id="experience" key={sectionName}>
                         <h2 className="font-serif text-md mb-12 tracking-wide uppercase">
                           Experience
                         </h2>
@@ -156,11 +173,17 @@ export default function Home() {
                 Experience
               </a>
             <a
+              href="#teaching"
+              className="text-zinc-700 hover:text-zinc-900 block"
+            >
+                Teaching
+              </a>
+            {/* <a
               href="#education"
               className="text-zinc-700 hover:text-zinc-900 block"
             >
                 Education
-              </a>
+              </a> */}
             <a
               href="#portfolio"
               className="text-zinc-700 hover:text-zinc-900 block"
