@@ -16,7 +16,7 @@ export default function Home() {
   return (
     <div className="min-h-screen bg-[#FFFCF8]">
       {/* Don't have a great call on whether max-w-screen-xl is better */}
-      <div className="max-w-screen-lg mx-auto px-8 py-24 flex">
+      <div className="max-w-screen-lg ml-auto mr-4 px-8 py-24 flex">
         {/* Main Content */}
         <div className="grid grid-cols-1 md:grid-cols-12 gap-0">
           {/* Left Column - Fixed Info */}
