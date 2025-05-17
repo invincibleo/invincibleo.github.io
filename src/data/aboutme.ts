@@ -26,7 +26,7 @@ export const aboutMe: AboutMe = {
     "I'm a final-year <a href='https://www.stanford.edu'>PhD candidate</a> working at the intersection of causal inference and machine learning. My research focuses on developing robust, interpretable systems that can reason about cause and effect in complex environments.",
   email: "duowei.tang[at]kuleuven.be",
   imageUrl:
-    "../pic/duowei_photo.png",
+    "@/pic/duowei_photo.png",
   googleScholarUrl: "https://scholar.google.be/citations?user=tvp7cesAAAAJ&hl=en",
   githubUsername: "invincibleo",
   linkedinUsername: "duowei-tang-64ba24153",
