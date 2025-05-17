@@ -16,7 +16,7 @@ export default function Home() {
   return (
     <div className="min-h-screen bg-[#FFFCF8]">
       {/* Don't have a great call on whether max-w-screen-xl is better */}
-      <div className="max-w-screen-lg mx-auto px-8 py-24 grid grid-cols-[1fr_auto] gap-x-16">
+      <div className="max-w-screen-lg mx-auto px-8 py-24 flex">
         {/* Main Content */}
         <div className="grid grid-cols-1 md:grid-cols-12 gap-0">
           {/* Left Column - Fixed Info */}
@@ -28,7 +28,7 @@ export default function Home() {
           </div>
 
           {/* Right Column - Scrolling Content */}
-          <div className="col-span-12 md:col-span-8 space-y-24">
+          <div className="col-span-12 md:col-span-7 md:col-start-6 space-y-24">
             {/* About section is typically first */}
             {aboutMe.description && (
               <section id="about">
@@ -134,40 +134,40 @@ export default function Home() {
           </div>
         </div>
 
-        {/* Vertical Navigation Bar */}
-        <div className="hidden md:block w-40">
-          <nav className="sticky top-12 space-y-4">
-            <a href="#about" className="text-zinc-700 hover:text-zinc-900 block">
-              About
-            </a>
-            <a href="#news" className="text-zinc-700 hover:text-zinc-900 block">
-              News
-            </a>
+          {/* Vertical Navigation Bar */}
+          <div className="hidden md:block w-48 ml-8">
+            <nav className="sticky top-12 space-y-4">
+              <a href="#about" className="text-zinc-700 hover:text-zinc-900 block">
+                About
+              </a>
+              <a href="#news" className="text-zinc-700 hover:text-zinc-900 block">
+                News
+              </a>
             <a
               href="#publications"
               className="text-zinc-700 hover:text-zinc-900 block"
             >
-              Publications
-            </a>
+                Publications
+              </a>
             <a
               href="#education"
               className="text-zinc-700 hover:text-zinc-900 block"
             >
-              Education
-            </a>
+                Education
+              </a>
             <a
               href="#experience"
               className="text-zinc-700 hover:text-zinc-900 block"
             >
-              Experience
-            </a>
+                Experience
+              </a>
             <a
               href="#portfolio"
               className="text-zinc-700 hover:text-zinc-900 block"
             >
-              Portfolio
-            </a>
-          </nav>
+                Portfolio
+              </a>
+            </nav>
         </div>
       </div>
     </div>
