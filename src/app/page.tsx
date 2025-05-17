@@ -150,16 +150,16 @@ export default function Home() {
                 Publications
               </a>
             <a
-              href="#education"
-              className="text-zinc-700 hover:text-zinc-900 block"
-            >
-                Education
-              </a>
-            <a
               href="#experience"
               className="text-zinc-700 hover:text-zinc-900 block"
             >
                 Experience
+              </a>
+            <a
+              href="#education"
+              className="text-zinc-700 hover:text-zinc-900 block"
+            >
+                Education
               </a>
             <a
               href="#portfolio"
