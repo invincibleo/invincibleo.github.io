@@ -64,7 +64,7 @@ export const publicationData: Publication[] = [
     conference: "IEEE Workshop on Applications of Signal Processing to Audio and Acoustics (WASPAA)",
     title: "Supervised Contrastive Embeddings for Binaural Source Localization",
     authors: "Duowei Tang, Maja Taseska, and Toon van Waterschoot",
-    paperUrl: "https://lirias.kuleuven.be/retrieve/603070",
+    paperUrl: "https://ftp.esat.kuleuven.be/pub/SISTA/dtang/reports/19-58.pdf",
     //codeUrl: "https://github.com/jsmith/scalable-causal-discovery",
     //bibtex: "https://arxiv.org/abs/2409.15476.bib",
     tldr: "Proposes a supervised contrastive manifold learning method that learns robust embeddings preserving binaural sound source spatial relationships.",
