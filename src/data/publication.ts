@@ -49,7 +49,7 @@ export const publicationData: Publication[] = [
     conference: "28th European Signal Processing Conference (EUSIPCO)",
     title: "Adieu recurrence? End-to-end speech emotion recognition using a context stacking dilated convolutional network",
     authors: "Duowei Tang, Peter Kuppens, Luc Geurts, and Toon van Waterschoot",
-    paperUrl: "https://lirias.kuleuven.be/retrieve/623371",
+    paperUrl: "https://ppw.kuleuven.be/okp/_pdf/Tang2020ARESE.pdf",
     //codeUrl: "https://github.com/jsmith/scalable-causal-discovery",
     //bibtex: "https://arxiv.org/abs/2409.15476.bib",
     tldr: "Proposes a fully convolutional end-to-end speech emotion recognition model using dilated causal convolutions and context stacking, eliminating recurrent layers while outperforming LSTM-based approaches in capturing very long temporal dependencies and achieving superior arousal/valence prediction.",
