@@ -25,9 +25,43 @@ const ptSerif = PT_Serif({
   weight: ["400", "700"],
 });
 
+const SITE_URL = "https://invincibleo.github.io";
+
+const pageTitle = customMetadata.title || `${aboutMe.name}, ${aboutMe.title}`;
+const pageDescription = customMetadata.description || aboutMe.description;
+
 export const metadata: Metadata = {
-  title: customMetadata.title || aboutMe.name,
-  description: customMetadata.description || aboutMe.description,
+  metadataBase: new URL(SITE_URL),
+  title: pageTitle,
+  description: pageDescription,
+  keywords: customMetadata.keywords,
+  alternates: {
+    canonical: "/",
+  },
+  openGraph: {
+    title: pageTitle,
+    description: pageDescription,
+    url: SITE_URL,
+    siteName: aboutMe.name,
+    type: "website",
+    locale: "en_US",
+    images: aboutMe.imageUrl
+      ? [
+          {
+            url: aboutMe.imageUrl,
+            width: 380,
+            height: 362,
+            alt: aboutMe.name,
+          },
+        ]
+      : undefined,
+  },
+  twitter: {
+    card: "summary",
+    title: pageTitle,
+    description: pageDescription,
+    images: aboutMe.imageUrl ? [aboutMe.imageUrl] : undefined,
+  },
   icons: {
     icon: "/favicon.ico",
   },
@@ -60,10 +94,10 @@ export default function RootLayout({
               <p className="text-sm text-neutral-500 dark:text-neutral-500 justify">
                 E-mail:{" "}
                 <a
-                  href="mailto:duowei.tang@kuleuven.be"
+                  href="mailto:dtang@goodix.com"
                   className="underline hover:text-neutral-800 dark:hover:text-neutral-300 transition-colors"
                 >
-                  duowei.tang[at]kuleuven.be
+                  dtang[at]goodix.com
                 </a>
               </p>
             </div>
