@@ -6,7 +6,7 @@ export interface CustomMetadata {
 
 export const customMetadata: CustomMetadata = {
   // If you want a custom title or description you can add it here.
-  title: "Duowei Tang — Speech & Audio Processing Researcher",
+  title: "Duowei Tang — Speech Emotion Recognition & Deep Learning Researcher",
   keywords: [
     "Duowei Tang",
     "speech emotion recognition",
